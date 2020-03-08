@@ -5,10 +5,11 @@
       <h1 class="title">
         utfs-hp
       </h1>
+      <p>東大金融研究会</p>
       <h2 class="subtitle">
-        simple homepage for utfs
+        こちらは東大金融研究会のHPサイトです
       </h2>
-      <div class="links">
+      <!-- <div class="links">
         <a
           href="https://nuxtjs.org/"
           target="_blank"
@@ -23,7 +24,7 @@
         >
           GitHub
         </a>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
