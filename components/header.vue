@@ -2,7 +2,7 @@
 	<div>
 		<header>
             <nuxt-link to="/">
-                <img src="~/assets/images/logo.png" alt="">
+                <img style="height: 100%;" src="~/assets/images/logo.png" alt="">
             </nuxt-link>
 			<HeaderNav />
 		</header>
@@ -23,5 +23,11 @@ header {
 	color: black;
 	padding: 20px 60px;
 	background-color: white;
+}
+
+@media screen and ( max-width: 900px ) {
+	header {
+		padding: 20px 20px;
+	}
 }
 </style>

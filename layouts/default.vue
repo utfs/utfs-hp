@@ -139,7 +139,7 @@ main {
 }
 
 html {
-  font-family: "游ゴシック体","YuGothic","游ゴシック","Yu Gothic", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W6", sans-serif;
+  font-family: "YakuHanJPsLight", "proxima-nova", "a-otf-midashi-go-mb31-pr6n", -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -147,6 +147,12 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 200% ;
+  text-align: justify;
 }
 
 *,

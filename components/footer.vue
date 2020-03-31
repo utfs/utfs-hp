@@ -11,7 +11,7 @@ footer {
     text-align: center;
 	color: #fff;
 	padding: 20px;
-	background-color: #3535D5;
+	background-color: #1a1ae2;
 	font-size: 16px;
 	font-weight: bold;
 }
