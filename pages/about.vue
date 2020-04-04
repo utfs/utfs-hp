@@ -35,7 +35,7 @@
                 </tr>
                 <tr>
                     <th>顧問</th>
-                    <td>伊藤潤一郎（元Goldman Sachs）</td>
+                    <td>伊藤潤一（元Goldman Sachs）</td>
                 </tr>
                <tr>
                     <th>所属人数</th>
