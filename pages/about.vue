@@ -31,7 +31,7 @@
                 </tr>
                 <tr>
                     <th>代表者</th>
-                    <td>大塚</td>
+                    <td>大塚健太郎</td>
                 </tr>
                 <tr>
                     <th>顧問</th>
@@ -109,6 +109,24 @@ export default {
         }
     }
 
+}
+
+@media screen and (max-width: 924px) {
+  .about {
+    padding: 4rem 0;
+    .container {
+        padding: 2rem 1rem;
+        &__title {
+            letter-spacing: 0;
+        }
+        .table {
+                th, td {
+                    padding: .75rem;
+                    text-align: left;
+                }
+            }
+    }
+  }
 }
 
 

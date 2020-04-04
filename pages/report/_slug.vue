@@ -36,11 +36,7 @@ export default {
         font-size: 64px;
         font-weight: 800;
     }
-    &__date {
-        font-size: 1.15rem;
-        line-height: 180%;
-        font-weight: bold;
-    }
+
     &__title {
         text-align: left;
         font-weight: bolder;
@@ -51,9 +47,11 @@ export default {
         margin-bottom: 2rem;
     }
     &__date {
-        font-size: 1.0rem;
+        font-size: 1.5rem;
         color: rgb(57, 72, 85);
-        text-align: right;
+        text-align: lefts;
+        line-height: 180%;
+        font-weight: bold;
     }
     &__image {
         margin-bottom: 2rem;

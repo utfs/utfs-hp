@@ -55,6 +55,7 @@ export default {
       { hid: 'og:url', property: 'og:url', content: 'https://utfs.club' },
       { hid: 'og:title', property: 'og:title', content: '東大金融研究会公式HP' },
       { hid: 'og:description', property: 'og:description', content: '東大金融研究会は、各分野で将来の日本を支える人財を生み出すことを目的に、実践的に金融・ビジネスを学ぶ学生団体です。これまでの活動としては、実際に証券会社の方々を招いた実践的な投資の勉強会、ベンチャーから大手企業まで訪問しCEOや幹部の方々とのディスカッション、さらには文化面においてもスポーツ選手から俳優・タレントによる講演など幅広く行ってきました。' },
+      { hid:"viewport", name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'}
       // { hid: 'og:image', property: 'og:image', content: 'https://example.com/img/ogp/common.jpg' },
       // { property: 'article:publisher', content: 'FacebookURL' },
       // { property: 'fb:app_id', content: 'FacebookAppID' },

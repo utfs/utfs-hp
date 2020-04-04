@@ -57,6 +57,12 @@ export default {
     }
 }
 
+@media screen and (max-width: 924px){
+     .index .card {
+      width: 100%;
+    }
+}
+
 @media (min-width: 1200px){
     .container {
         max-width: 1140px;
@@ -64,9 +70,9 @@ export default {
 }
 
 @media (min-width: 992px){
-.container {
-    max-width: 960px;
-}
+  .container {
+      max-width: 960px;
+  }
 }
 
 </style>

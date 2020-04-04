@@ -59,4 +59,10 @@ export default {
       opacity: .7;
     }
 }
+
+@media screen and (max-width:924px) {
+    .anchor {
+        padding: 1rem;
+    }
+}
 </style>

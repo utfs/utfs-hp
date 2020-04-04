@@ -49,7 +49,8 @@
         <h3 class="about__subtitle">新歓情報</h3>
         <p class="about__description">
           現在新会員を積極的に募集しています。
-          <br><br>あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+          <br><br>
+          新規募集説明会などを予定しておりますので、Line@に登録して情報をおまちください。
         </p>
         <the-button
           to="/join"
@@ -65,7 +66,7 @@
           <h2 class="contact__title">Contact</h2>
           <h3 class="contact__subtitle">お問い合わせ</h3>
           <img src="~/assets/images/ic_contact.png" alt="">
-          <p class="contact__description">研究会に対するお問い合わせはこちらからお願いします。<br>また、当会のTwitterのフォローもお願いします</p>
+          <p class="contact__description">研究会に対するお問い合わせはこちらからお願いします。<br>（新歓情報に関しては、「Join」ページからご参照ください。）<br>また、当会のTwitterのフォローもお願いします</p>
           <!-- <a class="contact__form-link" href="">お問い合わせはこちら</a> -->
           <the-button
             to="https://google.com"
@@ -154,6 +155,7 @@ section {
   &>img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
   }
 }
 
@@ -385,7 +387,7 @@ section {
   padding-top: 15px;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 924px) {
   section {
     padding: 4rem 0;
   }
@@ -410,8 +412,19 @@ section {
     }
   }
   .activity {
+    &::before {
+      width: 110%;
+      height: 90%;
+      transform: rotate(5deg);
+    }
+    &::after {
+      width: 110%;
+      height: 90%;
+      transform: rotate(-5deg);
+
+    }
     &__inner {
-      padding: 100px 10px 320px;
+      padding: 100px 10px 120px;
     }
     &__description {
       padding: 40px 20px;
@@ -433,9 +446,10 @@ section {
     }
   }
   .contact {
-    padding: 4rem 40px;
+    padding: 4rem 0;
     &__description {
       padding: 2rem 0;
+      text-align: left;
     }
     &__form-link {
       padding: .75rem 1rem;
