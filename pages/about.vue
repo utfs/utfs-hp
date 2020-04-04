@@ -16,6 +16,7 @@
             <p class="container__description">実際に証券会社などで働く金融のプロの方々を招いたクローズドな投資の勉強会を定期的に行います。そこで得た知見を生かしてグループで銘柄選択をするケーススタディを行うなど、専門的で実践的な金融の知識がつきます。</p>
             <h3 class="container__category">②多様な専門家を呼んだ勉強会</h3>
             <p class="container__description">金融に留まらず、東大金融研究会では、ビジネスやスポーツ、芸能界で活躍する様々な専門家を呼んだ講演会や勉強会を開催します。多様な強みを持つ専門家との関わりから様々な分野で活躍する人材を生み出します。</p>
+            <img class="container__flier" src="~/assets/images/utfs-flier.jpg" alt="">
         </section>
         <section class="container">
             <h2 class="container__title">Organization</h2>
@@ -95,6 +96,10 @@ export default {
         &__description {
             font-weight: bold;
             margin-bottom: 2rem;
+        }
+        &__flier {
+            width: 100%;
+            margin: 2rem 0;
         }
     }
     .table {

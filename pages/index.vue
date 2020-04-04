@@ -7,7 +7,7 @@
             <img src="~/assets/images/logo-white.png" alt="">
           <h3>将来の日本を支える人材を生み出す学生プラットフォーム</h3>
         </div>
-        <img src="~/assets/images/hp-first-view.png" alt="">
+        <img src="~/assets/images/hp-first-view-min.png" alt="">
       </div>
       <div class="introduction">
         <p>金融は、経済の血流とも言えるもの<br>東大金融研究会は、金融を学ぶことを通じて将来の日本経済を担う人材を生み出していきます</p>
