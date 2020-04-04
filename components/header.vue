@@ -2,7 +2,7 @@
 	<div class="header-wrapper">
 		<header>
             <nuxt-link to="/">
-                <img style="height: 100%;" src="~/assets/images/utfs-logonew.png" alt="">
+                <img src="~/assets/images/utfs-logonew.png" alt="">
             </nuxt-link>
 			<HeaderNav />
 		</header>
@@ -20,11 +20,16 @@
 
 header {
     display: flex;
+	height: 100%;
     justify-content: space-between;
 	color: black;
-	padding: 20px 60px;
+	padding: 1rem 4rem;
 	background-color: white;
 	height: 64px;
+	img {
+		height: 32px ;
+		object-fit: cover;
+	}
 }
 
 @media screen and ( max-width: 900px ) {
