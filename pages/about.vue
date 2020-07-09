@@ -1,6 +1,7 @@
 <template>
     <div class="about">
         <h1>ABOUT</h1>
+        <img class="about__image" src="~/assets/images/utfs-new-logo.jpg" alt="">
         <section class="container ">
             <h2 class="container__title">About Us</h2>
             <h3 class="container__subtitle">私たちについて</h3>
@@ -40,7 +41,7 @@
                 </tr>
                <tr>
                     <th>所属人数</th>
-                    <td>約３０人</td>
+                    <td>約６０人</td>
                 </tr>
             </table>
         </section>
@@ -67,6 +68,10 @@ export default {
 <style lang="scss" scoped>
 .about {
     padding: 4rem 8rem;
+    &__image {
+        max-height: 200px;
+        margin-top: 2rem;
+    }
     h1 {
         font-size: 64px;
         font-weight: 800;
@@ -74,7 +79,7 @@ export default {
     .container {
         padding: 4rem 10rem; 
         &__title {
-            color: #1a1ae2;
+            color: #090C9B;
             font-size: 3rem;
             font-weight: bold;
             letter-spacing: .25rem;
@@ -96,6 +101,7 @@ export default {
         &__description {
             font-weight: bold;
             margin-bottom: 2rem;
+            color: #2C2A54;
         }
         &__flier {
             width: 100%;

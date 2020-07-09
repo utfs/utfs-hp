@@ -48,7 +48,7 @@ export default {
 }
 .card_image {
     display: block;
-    min-height: 250px;
+    height: 250px;
     width: 100%;
     background-color: #999;
     background-size: cover;
