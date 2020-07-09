@@ -118,7 +118,7 @@ nav.nav-conent-pc {
 			width: 15px;
 			height: 2px;
 			margin: 0 auto 0 0;
-			background: #1a1ae2;
+			background: #090C9B;
 			transition: all .4s;
 			&:nth-child(3) {
 				width: 10px;
@@ -185,7 +185,7 @@ nav.nav-conent-pc {
 		margin: auto;
 		border-top: 6px solid transparent;
 		border-bottom: 6px solid transparent;
-		border-left: 6px solid #1a1ae2;
+		border-left: 6px solid #090C9B;
 		}
 			a {
 			display: block;

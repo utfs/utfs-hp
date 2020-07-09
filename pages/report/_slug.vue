@@ -57,7 +57,7 @@ export default {
         margin-bottom: 2rem;
         object-fit: cover;
         width: 100%;
-        max-height: 400px;
+        // max-height: 400px;
     }
     &__body {
         margin-bottom: 4rem;

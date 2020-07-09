@@ -161,9 +161,9 @@ section {
 
 .introduction {
   padding: 40px 40px;
-  background-color: #F5F2F2;
+  background-color: #EEEEEE;
   p {
-    color: dimgray;
+    color:#3C3744;
     text-align: center;
     font-size: 1rem;
     line-height: 32px;
@@ -171,7 +171,7 @@ section {
 }
 .about {
   &__title {
-    color: #1a1ae2;
+    color: #090C9B;
     font-size: 3rem;
     font-weight: bold;
     letter-spacing: .25rem;
@@ -185,12 +185,14 @@ section {
     padding: 4rem 20%;
     font-weight: bold;
     margin-bottom: 2rem;
+    color: #2C2A54;
+
   }
   &__button {
     display: inline-block;
-    // background-color: #1a1ae2;
-    border: 2px solid #1a1ae2;
-    color: #1a1ae2;
+    // background-color: #090C9B;
+    border: 2px solid #090C9B;
+    color: #090C9B;
     text-decoration: none;
     padding: 1.5rem 4rem;
     font-size: 1.25rem;
@@ -201,7 +203,7 @@ section {
     margin-bottom: 2rem;
     &:hover {
       // opacity: .7;
-      background-color:#1a1ae2;
+      background-color:#090C9B;
       color: white;
     }
   }
@@ -222,7 +224,7 @@ section {
     width: 120%;
     height: 80%;
     margin: 3% -10% 0;
-    background: #1a1ae2;
+    background: #090C9B;
     -webkit-transform-origin: left center;
     -ms-transform-origin: left center;
     transform-origin: left center;
@@ -265,7 +267,7 @@ section {
   }
   &__description {
   padding: 4rem 20%;
-  color: white;
+  color: white !important;
   }
   &__wrapper {
     display: flex;
@@ -312,7 +314,7 @@ section {
   }
   }
   &__title {
-    color: #1a1ae2;
+    color: #090C9B;
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 2rem;
@@ -325,12 +327,13 @@ section {
   &__description {
     padding: 2rem 4rem;
     text-align: center;
+    color: #2C2A54;
   }
 
   &__form-link {
     display: inline-block;
-    border: 2px solid #1a1ae2;
-    color: #1a1ae2;
+    border: 2px solid #090C9B;
+    color: #090C9B;
     text-decoration: none;
     padding: .75rem 4rem;
     font-size: 1rem;
@@ -409,6 +412,7 @@ section {
   .about {
     &__description {
       padding: 40px 20px;
+      color: #2C2A54;
     }
   }
   .activity {
@@ -428,6 +432,7 @@ section {
     }
     &__description {
       padding: 40px 20px;
+      color: white;
     }
     &__wrapper {
       flex-direction: column;
@@ -450,6 +455,7 @@ section {
     &__description {
       padding: 2rem 0;
       text-align: left;
+      color: #2C2A54;
     }
     &__form-link {
       padding: .75rem 1rem;

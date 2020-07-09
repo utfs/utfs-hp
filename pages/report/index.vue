@@ -39,9 +39,9 @@ export default {
 <style lang="scss" scoped>
 .index {
   display: flex;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
   .card {
-    width: 50%;
+    width: 48%;
     }
 }   
 

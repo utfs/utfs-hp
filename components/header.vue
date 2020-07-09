@@ -2,7 +2,7 @@
 	<div class="header-wrapper">
 		<header>
             <nuxt-link to="/">
-                <img src="~/assets/images/utfs-logonew.png" alt="">
+                <img src="~/assets/images/utfs-new-logo.jpg" alt="">
             </nuxt-link>
 			<HeaderNav />
 		</header>
@@ -27,7 +27,8 @@ header {
 	background-color: white;
 	height: 64px;
 	img {
-		height: 32px ;
+		height: 48px ;
+		margin-top: -8px;
 		object-fit: cover;
 	}
 }

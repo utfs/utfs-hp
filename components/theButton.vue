@@ -27,9 +27,9 @@ export default {
 <style lang="scss" scoped>
 .button {
     display: inline-block;
-    // background-color: #1a1ae2;
-    border: 2px solid #1a1ae2;
-    color: #1a1ae2;
+    // background-color: #090C9B;
+    border: 2px solid #090C9B;
+    color: #090C9B;
     text-decoration: none;
     padding: 1rem 4rem;
     font-size: 1.25rem;
@@ -39,16 +39,16 @@ export default {
     transition: all .3s ;
     &:hover {
       // opacity: .7;
-      background-color:#1a1ae2;
+      background-color:#090C9B;
       color: white;
     }
 }
 
 .anchor {
     display: inline-block;
-    // border: 2px solid #1a1ae2;
+    // border: 2px solid #090C9B;
     color: white;
-    background-color: #1a1ae2;
+    background-color: #090C9B;
     text-decoration: none;
     padding: 1rem 4rem;
     font-size: 1.25rem;

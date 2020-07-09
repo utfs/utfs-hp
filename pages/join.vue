@@ -67,7 +67,7 @@ export default {
     .container {
         padding: 4rem 10rem; 
         &__title {
-            color: #1a1ae2;
+            color: #090C9B;
             font-size: 3rem;
             font-weight: bold;
             letter-spacing: .25rem;
@@ -82,6 +82,7 @@ export default {
         &__description {
             font-weight: bold;
             margin-bottom: 2rem;
+            color: #2C2A54;
         }
         &__qr {
             width: 100%;
@@ -90,8 +91,8 @@ export default {
             height: auto;
         }
         ul, ol {
-        color: #1a1ae2;/*文字色*/
-        border: dashed 2px #1a1ae2;/*破線 太さ 色*/
+        color: #090C9B;/*文字色*/
+        border: dashed 2px #090C9B;/*破線 太さ 色*/
         background: #f1f8ff; /*背景色*/
         padding: 0.5em 0.5em 0.5em 2em;
         }
