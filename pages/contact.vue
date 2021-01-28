@@ -73,8 +73,13 @@
       </form>
     </template>
     <template v-else>
-      <p v-text="'お問い合わせ頂きありがとうございました。'" />
-      <p><nuxt-link to="/" v-text="'TOPへ'" /></p>
+        <h2 class="complete__title"> お問い合わせ 送信完了</h2>
+        <p class="complete__text">
+            お問い合わせありがとうございました。<br>
+            内容を確認のうえ、回答させて頂きます。<br>
+            しばらくお待ちください。
+        </p>      
+        <p><nuxt-link to="/" v-text="'TOPへ'" /></p>
     </template>
   </section>
 </template>
@@ -311,6 +316,16 @@ label {
     color: white;
     background-color: #090C9B;
   }
+}
+.complete {
+    &__title {
+        font-size: 1.5rem;
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+    &__text {
+        font-size: 1.25rem;
+    }
 }
 @media screen and ( max-width: 900px ) {
   .form {
