@@ -40,7 +40,7 @@ export default {
   */
   plugins: [
     '@/plugins/element-ui',
-    { src: '~plugins/contentful' }
+    { src: '~plugins/contentful' },
   ],
 
   head: {
