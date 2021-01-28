@@ -69,8 +69,7 @@
           <p class="contact__description">研究会に対するお問い合わせはこちらからお願いします。<br>（新歓情報に関しては、「Join」ページからご参照ください。）<br>また、当会のTwitterのフォローもお願いします</p>
           <!-- <a class="contact__form-link" href="">お問い合わせはこちら</a> -->
           <the-button
-            to="https://forms.gle/34gZ337DdRNCNP1K9"
-            :isExternal="true"
+            to="/contact"
             content="お問い合わせはこちら"
           ></the-button>
           <a target="blank" class="contact__twitter-link" href="https://twitter.com/ut_fin_society" >

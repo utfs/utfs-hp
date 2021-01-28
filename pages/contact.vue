@@ -1,9 +1,10 @@
 <template>
   <section class="contact-container">
     <template v-if="!finished">
-    <div class="title-container">
-      <p class="title-container__sub">お問い合わせ</p>
-    </div>
+      <div class="title-container">
+            <h2 class="title-container__title">Contact</h2>
+            <h3 class="title-container__subtitle">お問い合わせ</h3>    
+      </div>
       <p class="center-text">加入についてのお問い合わせは<nuxt-link clas="center-text__anchor" to="/join">こちら</nuxt-link></p>
       <form class="form" name="contact" method="POST" data-netlify="true" @submit.prevent>
         <div class="field">
@@ -224,6 +225,18 @@ export default {
 .title-container {
     padding: 2rem 0;
     text-align: center;
+    &__title {
+        color: #090C9B;
+        font-size: 3rem;
+        font-weight: bold;
+        letter-spacing: .25rem;
+        margin-bottom: 1rem;
+    }
+    &__subtitle{
+        color: #9F9FA3;
+        font-size: 1.25rem;
+        margin-bottom: 4rem;
+    }
     img {
         margin-bottom: 1rem;
     }

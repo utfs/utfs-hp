@@ -15,6 +15,9 @@
 				<li>
 					<nuxt-link to="/join">JOIN</nuxt-link>
 				</li>
+				<li>
+					<nuxt-link to="/contact">CONTACT</nuxt-link>
+				</li>
 			</ul>
 		</nav>
 		<nav class="nav-conent-sp" >
