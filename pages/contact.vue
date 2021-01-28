@@ -236,6 +236,7 @@ export default {
         font-weight: bold;
         letter-spacing: .25rem;
         margin-bottom: 1rem;
+        text-align: center;
     }
     &__subtitle{
         color: #9F9FA3;
